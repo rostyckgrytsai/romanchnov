@@ -1,0 +1,1086 @@
+*, :before, :after{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+a,a:visited{
+    color: #fff;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: 'Geometria';
+    src: url('./fonts/geometria/Geometria.eot');
+    src: url('./fonts/geometria/Geometria.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/geometria/Geometria.woff') format('woff'),
+        url('./fonts/geometria/Geometria.ttf') format('truetype'),
+        url('./fonts/geometria/Geometria.svg#Geometria') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lack';
+    src: url('./fonts/lack/Lack-Regular.eot');
+    src: url('./fonts/lack/Lack-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/lack/Lack-Regular.woff') format('woff'),
+        url('./fonts/lack/Lack-Regular.ttf') format('truetype'),
+        url('./fonts/lack/Lack-Regular.svg#Lack-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrapper{
+    width: 92.7vw;
+    margin: 0 auto;
+}
+
+.header_video_section{
+    position: relative;
+    max-height: 100vh;
+}
+
+.video_container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+
+.video_container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header_content_container{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    padding: 3.5vw 0 0 0;
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+}
+
+.navigation{
+    height: 1.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 13.1vw;
+    height: 1.5vw;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu_conatiner{
+    display: flex;
+    align-items: center;
+}
+
+.menu_decoration{
+
+}
+
+.menu_text{
+    font-size: 1vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    margin: 0 3.4vw 0 0;
+    cursor: pointer;
+}
+
+.menu_text:hover{
+    color: #DBFF00;
+}
+
+.header_content{
+    margin: 9.1vw 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_content_left{
+    width: 43.2vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+    letter-spacing: -0.02em;
+}
+
+.header_small_text_container{
+   width: 30.5vw;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 0 0 13.5vw;
+}
+
+.small_text_left{
+    height: 3.1vw;
+}
+
+.small_text_left span{
+    color: #dbff00;
+}
+
+.small_text_right span{
+    color: #dbff00;
+}
+
+.header_big_text_container{
+    margin: 1.8vw 0 0;
+    font-weight: 400;
+    font-size: 6.4vw;
+    line-height: 6.4vw;
+    letter-spacing: -0.07em;
+    text-transform: capitalize;
+    font-family: 'Lack';
+}
+
+.firs_big_text_item{
+    text-align: right;
+}
+
+.second_big_text_item{
+    text-align: left;
+}
+
+.header_content_right{
+    
+}
+
+.header_brands_container{
+    margin: 2.8vw 0 0 13.5vw;
+    width: 21.6vw;
+    height: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_brands_item{
+    display: flex;
+    align-items: center;
+}
+
+.brands_item_icon{
+    width: 1.9vw;
+    height: 2.1vw;
+}
+
+.brands_item_icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.brands_item_text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1vw;
+    line-height: 1.7vw;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 0 0.5vw;
+}
+
+.header_brands_dollar{
+    font-weight: 700;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+}
+
+.header_brands_sep_icon{
+    width: 1vw;
+    height: 1vw;
+}
+
+.header_brands_sep_icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.content_right_text{
+    width: 32.2vw;
+    height: 12vw;   
+    font-size: 1.4vw;
+    line-height: 2.1vw;
+}
+
+.yellow_text{
+    color: #dbff00;
+}
+
+.bold_text{
+    font-weight: 700;
+}
+
+.content_right_button{
+    margin: 2.6vw 0 0 0;
+
+}
+
+.button_text{
+    color: #000;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
+    text-transform: uppercase;
+}
+
+.button_icon_container{
+    width: 1vw;
+    height: 2vw;
+}
+
+.button_icon_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.corner_container{
+    width: 0.8vw;
+    height: 0.8vw;
+    opacity: 80%;
+}
+
+.corner_container img{
+    width: 100%;
+    height: 100%;
+}
+
+.corner_1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.corner_2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.description_section{
+    padding-bottom: 5.7vw;
+    background-color: #000;
+}
+
+.container{
+    width: 73.4vw;
+    margin: 0 auto;
+}
+
+.description_header{
+    margin: -3.1vw 0 2.4vw 0;
+    display: flex;
+}
+
+.description_column_l{
+    display: flex;
+}
+
+.column_l_text_container{
+    color: #fff;
+    margin: 10.5vw -3.8vw 0 0;
+    z-index: 1;
+}
+
+.column_l_top_text{
+    font-family: 'Geometria';
+    font-size: 2.5vw;
+    line-height: 3vw;
+    font-weight: 400;
+}
+
+.column_l_bottom_text{
+    margin: 15.6vw 0 0 0;
+    width: 19.7vw;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+}
+
+.column_l_img_container{
+    width: 21.4vw;
+    height: 37.5vw;
+}
+
+.column_l_img_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description_column_r{
+    margin: 0 0 0 4vw;
+}
+
+.column_r_header{
+    margin: 10.5vw 0 0 0 ;
+    width: 28.4vw;
+    font-family: 'Lack';
+    font-weight: 400;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.column_r_header span{
+    color: #C1C1C1;
+    opacity: 50%;
+}
+
+.column_r_text{
+    color: #fff;
+    width: 33.4vw;
+    font-size: 1.45vw;
+    line-height: 2.2vw;
+    margin: 2vw 0 0 0;
+}
+
+.decoration{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: 70%;
+}
+
+.point_item_content{
+    padding: 2.5vw 0;
+    display: flex;
+    column-gap:6.25vw;
+}
+
+.point_item_heading_container{
+    width: 33.3vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  9.7vw 0 0;
+}
+
+.point_heading_text{
+    font-family: 'Geometria';
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-size: 2.5vw;
+    font-weight: 3vw;
+    color: #DBFF00;
+    text-transform: capitalize;
+}
+
+.point_heading_icon{
+    max-height: 4.7vw;
+}
+
+.point_heading_icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.point_text{
+    width: 33.9vw;
+    font-size: 1.25vw;
+    line-height: 1.87vw;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+}
+
+.cours_program{
+    margin: 17vw 0 0 0;
+    color:#fff;
+    letter-spacing: -0.05em;
+    font-weight: 400;
+    line-height: 5.7vw;
+    font-size: 4.7vw;
+    font-family: 'Lack';
+}
+
+.program_section{
+    background-color: #000;
+    padding: 0 0 11.5vw 0;
+}
+
+.program_section_heading{
+    width: 100%;
+    height: 24.6vw;
+    position: relative;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,85,121,0) 35%, rgba(0,212,255,1) 100%);
+}
+
+.program_section_heading img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.program_section_heading_text{
+    position: absolute;
+    z-index: 2;
+    top: 3.1vw;
+    left: 9.8vw;
+    color:#fff;
+}
+
+.porgram_section_heading_text_module{
+    font-family: 'Lack';
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 1.78vw;
+    letter-spacing: -0.05em
+}
+
+.program_section_heading_text_header{
+    font-family: 'Lack';
+    text-transform: capitalize;
+    font-size: 4.7vw;
+    line-height: 4.7vw;
+    letter-spacing: -0.05em;
+    margin: 1.47vw 0 0 0;
+}
+
+.program_section_heading_text_content{
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    font-size: 1.45vw;
+    line-height: 2.2vw;
+    font-family: 'Raleway', sans-serif;
+    margin: 1.2vw 0 0 0;
+}
+
+.program_section_about{
+    margin: 4.2vw 0 0 0;
+    color: #fff;
+    font-size: 1.7vw;
+    font-weight: 2.5vw;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: -0.02em;
+    gap: 6.26vw;
+}
+
+.program_section_content{
+    width: 33.33vw;
+}
+
+.porgrma_section_about_heading{
+    margin: 0 0 2.6vw 0;
+}
+
+.program_section_content_item{
+    margin: 2vw 0 0 0;
+}
+
+.program_section_content_decoration{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    opacity: 70%;
+    margin: 2.1vw 0 0 0;
+}
+
+.lesson_number{
+    margin: 0 2vw 0 0;
+    width: 5.5vw;
+}
+
+.program_section_item_content{
+    display: flex;
+}
+
+.program_section_item_content_text{
+    max-width: 24.5vw;
+}
+
+.program_section_decoration{
+    margin: 0 2vw 0 0;
+}
+
+.footer_section{
+    background-color: #000;
+}
+
+.footer_video{
+    position: relative;
+}
+
+.footer_video_container{
+    width: 100%;
+    height: 46.5vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.footer_video_container video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer_video_content{
+    position: absolute;
+    top: 6.8vw;
+    left: 3.5vw;
+    z-index: 1;
+    color: #fff;
+    opacity: 25%;
+    font-family: 'Lack';
+    font-size: 11.2vw;
+    line-height: 13.5vw;
+    font-weight: 400;
+}
+
+.footer_video_content span{
+    margin: 0 0 0 9.8vw;
+}
+
+.footer_content{
+    padding: 52vw 0 11vw 0;
+    display: flex;
+    column-gap: 7.4vw;
+}
+
+.button_header{
+    width: 32.5vw;
+    font-family: 'Lack';
+    font-size: 4.7vw;
+    font-weight: 400;
+    line-height: 5.6vw;
+    color: fff;
+    margin: 0 0 3.6vw 0;
+}
+
+.case_item{
+    margin: 2vw 0 0 0;
+}
+
+.case_content_container{
+    display: flex;
+    width: 33.3vw;
+}
+
+.case_icon{
+    max-width: 4.3vw;
+    margin: 0 2.4vw 0 0 ;
+}
+
+.case_icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.case_text{
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.corner_bottom{
+    opacity: 100%;
+}
+
+
+.menu.show_menu{
+    right: 0;
+}
+
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    display: flex;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease 0s;
+    overflow-y: scroll;
+}
+
+.blur_section{
+    width: 33.4vw;
+    height: 100%;
+}
+
+.menu_links_section{
+    width: 66.7vw;
+    height: 100%;
+    background: #000;
+    color: #fff;
+}
+
+.menu_wrapper{
+    margin: 0 3.6vw 0 6.9vw;
+}
+
+.menu_header{
+    margin: 3.6vw 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_conatiner_close{
+    display: flex;
+    align-items: center;
+}
+
+.menu_text_close{
+    font-size: 1vw;
+    line-height: 1.25vw;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    margin: 0 3.4vw 0 0;
+    cursor: pointer;
+}
+.menu_text_close:hover{
+    color: #DBFF00;
+}
+
+.phone_number{
+    color: #DBFF00;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+
+.menu_links_container{
+    width: 41.5vw; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_link_item{
+    font-size: 2vw;
+    line-height: 3.1vw;
+    margin: 0 0 1.9vw 0;
+}
+
+.menu_content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 5.7vw 0 0 0;
+}
+
+.menu_label{
+    color: #fff;
+    opacity: 10%;
+    writing-mode: vertical-lr;
+    font-size: 3.8vw;
+    text-align: right;
+}
+
+.menu_label div{
+    text-align: left;
+}
+
+.menu_link_item a:hover{
+    color: #DBFF00;
+}
+
+.content_right_button.test_button{
+    margin: auto auto;
+    background: linear-gradient(45deg, transparent, #dbff00 5%, #dbff00 95%, transparent 95%);
+}
+
+.cource_button{
+    width: 20.2vw;   
+    height: 4.1vw; 
+    position: relative; 
+}
+
+.cource_button img{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.cource_button_content{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6.8vw;
+    transition: all 0.3s ease 0s;
+}
+
+.cource_button_content:hover{
+    column-gap: 3vw;
+    transition: all 0.3s ease 0s;
+}
+
+.button_header_small_screen{
+    display: none;
+    width: auto;
+    font-family: 'Lack';
+    font-size: 8.5vw;
+    font-weight: 400;
+    line-height: 8.5vw;
+    color: fff;
+    margin: 0 0 3.6vw 0;
+}
+
+@media(max-width: 375px){
+    body{
+        background-color: #000;
+    }
+
+    .wrapper{
+        width: 80vw;
+    }
+
+    .header_content{
+        flex-direction: column;
+    }
+
+    .navigation{
+        margin: 10vw 0 0 0;
+    }
+
+    .logo{
+        width: 35.4vw;
+        height: 4vw;
+    }
+
+    .menu_text{
+        font-size: 3.7vw;
+        line-height: 5.6vw;
+    }
+
+    .menu_decoration{
+        width: 3.2vw;
+        height: 3.2vw;
+    }
+
+    .menu_decoration img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .header_content{
+        margin: 22.13vw 0 0 0;
+    }
+
+    .header_content_left{
+        width: 100%;
+    }
+
+    .header_small_text_container{
+        margin: 0 0 0 0;
+        font-size: 3.7vw;
+        line-height: 5.6vw;
+        letter-spacing: -0.02em;
+        width: 100%;
+        column-gap: 3vw;
+    }
+
+    .header_big_text_container{
+        margin: 8.5vw 0 0 0;
+        height: 26.6vw;
+        font-size: 13.3vw;
+        line-height: 13.3vw;
+    }
+
+    .header_brands_container{
+        margin: 3.5vw 0 0 0;
+        width: 80vw;
+    }
+
+    .brands_item_icon{
+        width: 6.5vw;
+        height: 7.6vw;
+    }
+
+    .brands_item_text{
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+
+    .header_brands_dollar{
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+
+    .header_brands_sep_icon{
+        width: 3.6vw;
+        height: 3.6vw;
+    }
+
+    .header_content_right{
+        margin: 13.3vw 0 0 0;
+        width: 100%;
+    }
+
+    .content_right_text{
+        width: 100%;
+        font-size: 4.3vw;
+        line-height: 6.4vw;
+    }
+
+    .content_right_button{
+        margin: 46vw 0 0 0;
+    }
+
+    .cource_button{
+        width: 80vw;
+        height: 13.3vw;
+    }
+
+    .button_text{
+        font-size: 3.7vw;
+        line-height: 5.6vw;
+    }
+
+    .button_icon_container{
+       width: 3.2vw;
+       height: 6vw;
+    }
+
+
+    .video_container{
+        padding-top: 60vw;
+        height: 130vw;
+    }
+    .description_section{
+        margin: 265vw 0 0 0;
+    }
+
+    .container{
+        width: 80vw;
+    }
+    
+    .footer_content{
+        flex-direction: column;
+    }
+
+    .description_header{
+        flex-direction: column;
+    }
+
+    .column_l_top_text{
+        font-size: 7vw;
+        line-height: 8.2vw;
+    }
+
+    .column_l_bottom_text{
+        font-size: 5vw;
+        line-height: 7.6vw;
+        width: 59.5vw;
+    }
+
+    .column_l_img_container{
+        width: 59.7vw;
+        height: 92.6vw;
+        margin: 0 0 0 -30%;
+    }
+
+    .description_column_r{
+        margin: 0 0 0 0;
+    }
+
+    .column_r_header{
+        font-size: 8.5vw;
+        line-height: 8.5vw;
+        width: 52.5vw;
+        margin: 0 0 0 0;
+    }
+
+    .column_r_text{
+        font-size: 4.5vw;
+        line-height: 6.8vw;
+        width: 80vw;
+    }
+
+    .point_item_content{
+        flex-direction: column;
+    }
+
+    .point_item_heading_container{
+        width: 100%;
+    }
+
+    .point_heading_text{
+        font-size: 7vw;
+        line-height: 8.3vw;
+    }
+
+    .point_text{
+        width: 100%;
+        font-size: 4.2vw;
+        line-height: 6.4vw;
+    }
+
+    .point_heading_icon{
+        max-height: 13.3vw;
+    }
+
+    .decoration{
+        margin: 6.1vw 0 0 0;
+    }
+
+    .cours_program{
+        margin: 26.6vw 0 0 0;
+        font-size: 8.5vw;
+        line-height: 8.5vw;
+    }
+
+    .program_section_heading{
+        height: 49.6vw;
+    }
+
+    .porgram_section_heading_text_module{
+        font-size: 3.4vw;
+        line-height: 4.2vw;
+    }
+
+    .program_section_heading_text_header{
+        font-size: 7.5vw;
+        line-height: 7.5vw;
+    }
+
+    .program_section_heading_text_content{
+        font-size: 3.4vw;
+        line-height: 5.3vw;
+    }
+
+    .program_section_about{
+        flex-direction: column;
+    }
+
+    .porgrma_section_about_heading{
+        font-size: 5vw;
+        line-height: 7.6vw;
+    }
+
+    .program_section_content{
+       width: 100%;
+    }
+
+    .lesson_number{
+        font-size: 5vw;
+        line-height: 7.6vw;
+        width: auto;
+        margin: 0 5vw 0 0;
+    }
+
+    .program_section_item_content_text{
+        font-size: 5vw;
+        line-height: 7.6vw;
+        max-width: 58.7vw;
+    }
+
+    .program_section_item_content_text_2{
+        font-size: 5vw;
+        line-height: 7.6vw;
+    }
+
+    .footer_content{
+        display: flex;
+    }
+
+    .case_content_container{
+        width: 100%;
+    }
+
+    .case_text{
+        font-size: 5vw;
+        line-height: 7.6vw;
+    }
+
+    .case_icon{
+        max-width: 13.3vw;
+        max-height: 13.3vw;
+        margin: 0 5vw 0 0 ;
+    }
+
+    .button_header_small_screen{
+        order: 1;
+        display: block;
+    }
+
+    .footer_cases_container{
+        order: 2;
+    }
+
+    .footer_button_contaier{
+        margin: 10.5vw 0 0 0;
+        order: 3;
+    }
+
+    .button_header{
+        display: none;
+    }
+
+    .blur_section{
+        display: none;
+        width: 0%;
+    }
+
+    .menu_links_section{
+        width: 100%;
+    }
+
+    .menu_label{
+        display: none;
+    }
+
+    .menu_links_container{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .menu_link_item{
+        font-size: 5vw;
+        line-height: 5.8vw;
+    }
+
+    .phone_number{
+        font-size: 5vw;
+        line-height: 5.8vw;
+    }
+
+    .menu_text_close{
+        font-size: 5vw;
+        line-height: 5.8vw;
+    }
+
+    .menu_link_item{
+        margin: 0 0 3vw 0;
+    }
+
+    .menu{
+        height: 100%;
+    }
+
+}
